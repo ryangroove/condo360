@@ -1,16 +1,27 @@
-# condomarket360_final
+# Condo360
 
-A new Flutter project.
+O **Condo360** é um aplicativo desenvolvido em Flutter com o objetivo de facilitar o processo de compra e venda dentro de um condomínio. Ele permite que moradores realizem compras em estabelecimentos internos, ao mesmo tempo em que oferece aos donos de mercados uma forma prática de gerenciar seus produtos.
 
-## Getting Started
+## Tecnologias utilizadas
 
-This project is a starting point for a Flutter application.
+* Flutter
+* Dart
+* SQLite (sqflite) para armazenamento local
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades principais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Cadastro e login de usuários
+* Listagem de mercados do condomínio
+* Visualização de produtos disponíveis
+* Adição de produtos ao carrinho
+* Finalização de pedidos
+* Área para comerciantes administrarem seus produtos
+* Armazenamento de dados local utilizando SQLite
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estrutura do projeto
+
+O projeto está organizado em módulos que separam as principais responsabilidades, incluindo telas, modelos, controle de dados e configuração do banco de dados.
+
+## Objetivo
+
+O aplicativo foi criado como uma solução simples para melhorar o fluxo de compras internas no condomínio, oferecendo praticidade para compradores e comerciantes.
